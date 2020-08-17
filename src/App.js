@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const hash = getHash();
     if (hash.access_token) setApiToken(hash.access_token);
-  });
+  }, [apiToken]);
 
   return (
     <>
