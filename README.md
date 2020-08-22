@@ -66,3 +66,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Task 2 TODO
+
+- [x] Header
+- [ ] Search Form
+- [ ] Search field
+- [ ] List of type buttons (album, artist, playlist, track)
+- [ ] List of limit buttons (20,30,40,50)
+- [ ] Search button
+- [ ] List of Artist items - stateful
+- [ ] Artist item - stateless (Name, Spotify link, Genres (joined string), Image(first from Images array))
+- [ ] List of Track items - stateful
+- [ ] Track item - stateless (Name, Spotify link, Duration, Popularity, Album name, Album Spotify link, Artist name, Artist Spotify link )
+- [ ] List of Playlist items
+- [ ] Playlist item - stateless (Name,Spotify link, Image (first from Images array), Owner name, Tracks count )
+- [ ] List of Album items
+- [ ] Album item (Name, Spotify link, Image (first from Images array), Release date, Total tracks, List of artists (joined by comma) )
