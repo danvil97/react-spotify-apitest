@@ -15,6 +15,7 @@ const ArtistCard = ({ artist }) => {
     </div>
   );
 };
+
 ArtistCard.propTypes = {
   artist: PropTypes.shape({
     name: PropTypes.string.isRequired,

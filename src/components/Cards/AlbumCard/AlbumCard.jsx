@@ -20,6 +20,7 @@ const AlbumCard = ({ album }) => {
     </div>
   );
 };
+
 AlbumCard.propTypes = {
   album: PropTypes.shape({
     image: PropTypes.string.isRequired,

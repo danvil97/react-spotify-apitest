@@ -18,6 +18,7 @@ const PlaylistCard = ({ playlist }) => {
     </div>
   );
 };
+
 PlaylistCard.propTypes = {
   playlist: PropTypes.shape({
     image: PropTypes.string.isRequired,
