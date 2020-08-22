@@ -1,1 +1,7 @@
 @import '../../assets/styles/constants.scss';
+
+.base {
+  display: flex;
+
+  justify-content: space-between;
+}

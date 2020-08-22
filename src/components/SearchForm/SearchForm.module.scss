@@ -5,11 +5,10 @@
   padding: 20px;
   background: $spooty_blured-bg;
   border-radius: 8px;
-  div {
-    margin-bottom: 8px;
-  }
 
   .searchBox {
+    display: flex;
+    align-items: center;
     button {
       margin-left: 10px;
     }

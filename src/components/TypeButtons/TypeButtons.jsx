@@ -7,9 +7,9 @@ import styles from './TypeButtons.module.scss';
 
 const TypeButtons = ({ typeList }) => {
   return (
-    <div styleName=''>
+    <div styleName='base'>
       {typeList.map((type, idx) => (
-        <FormRadioButton name='type' value={type.value} key={type.idx}>
+        <FormRadioButton name='type' value={type.value} key={idx}>
           {type.name}
         </FormRadioButton>
       ))}

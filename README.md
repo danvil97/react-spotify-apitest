@@ -70,11 +70,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Task 2 TODO
 
 - [x] Header
-- [ ] Search Form
-- [ ] Search field
-- [ ] List of type buttons (album, artist, playlist, track)
-- [ ] List of limit buttons (20,30,40,50)
-- [ ] Search button
+- [x] Search Form
+- [x] Search field
+- [x] List of type buttons (album, artist, playlist, track)
+- [x] List of limit buttons (20,30,40,50)
+- [x] Search button
 - [ ] List of Artist items - stateful
 - [ ] Artist item - stateless (Name, Spotify link, Genres (joined string), Image(first from Images array))
 - [ ] List of Track items - stateful

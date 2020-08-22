@@ -1,6 +1,7 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 
+import FormSelect from '../FormSelect/FormSelect';
 import FormCheckbox from '../FormCheckbox/FormCheckbox';
 import TypeButtons from '../TypeButtons/TypeButtons';
 import SearchField from '../SearchField/SearchField';
@@ -15,6 +16,7 @@ const SearchForm = () => {
     <div styleName='base'>
       <div styleName='searchBox'>
         <SearchField placeholder='search text...' />
+        <FormSelect optionsList={SEARCH.limitList} />
         <PrimaryButton withBorder>
           <BsSearch />
         </PrimaryButton>
