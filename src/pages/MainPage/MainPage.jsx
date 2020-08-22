@@ -9,6 +9,7 @@ import TracksList from '../../components/Lists/TracksList/TracksList';
 import MOCK_DATA from '../../constants/mockedData';
 
 import styles from './MainPage.module.scss';
+import PlaylistsList from '../../components/Lists/PlaylistsList/PlaylistsList';
 
 const MainPage = () => {
   return (
@@ -16,8 +17,9 @@ const MainPage = () => {
       <Header />
       <div styleName='base'>
         <SearchForm />
-        {/* <ArtistsList artists={MOCK_DATA.artists} /> */}
+        <ArtistsList artists={MOCK_DATA.artists} />
         <TracksList tracks={MOCK_DATA.tracks} />
+        <PlaylistsList playlists={MOCK_DATA.playlists} />
       </div>
     </>
   );

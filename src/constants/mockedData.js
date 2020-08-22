@@ -2891,4 +2891,595 @@ export default {
     previous: null,
     total: 100010,
   },
+
+  playlists: {
+    href:
+      'https://api.spotify.com/v1/search?query=Metronomy&type=playlist&offset=5&limit=12',
+    items: [
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/5O7llItSfE0UpWiEYsB83n',
+        },
+        href: 'https://api.spotify.com/v1/playlists/5O7llItSfE0UpWiEYsB83n',
+        id: '5O7llItSfE0UpWiEYsB83n',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b2737f12907b6316ba19299e90faab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273cb3d624d713c325479dfd208',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b2737f12907b6316ba19299e90faab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273cb3d624d713c325479dfd208',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b2737f12907b6316ba19299e90faab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273cb3d624d713c325479dfd208',
+            width: 60,
+          },
+        ],
+        name: 'The Look – Metronomy',
+        owner: {
+          display_name: 'Miglė Sirvydytė',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/11129810918',
+          },
+          href: 'https://api.spotify.com/v1/users/11129810918',
+          id: '11129810918',
+          type: 'user',
+          uri: 'spotify:user:11129810918',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'NTYsZmZkMzg0ODUzNGMxYzkzYTI0OTY0YmY5MGRlOWUwZjgzZjA1NDQ5Mw==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/5O7llItSfE0UpWiEYsB83n/tracks',
+          total: 28,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:5O7llItSfE0UpWiEYsB83n',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/3BubbS4TphmZA9cN1tfqEF',
+        },
+        href: 'https://api.spotify.com/v1/playlists/3BubbS4TphmZA9cN1tfqEF',
+        id: '3BubbS4TphmZA9cN1tfqEF',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://i.scdn.co/image/ab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 640,
+          },
+        ],
+        name: 'Metronomy - Corrine',
+        owner: {
+          display_name: 'Jacob Michael Dorman',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/1218195816',
+          },
+          href: 'https://api.spotify.com/v1/users/1218195816',
+          id: '1218195816',
+          type: 'user',
+          uri: 'spotify:user:1218195816',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id: 'NCxkODlkYjIxMDYyMzQxNWUzMzg2ZGZhMWJiMDc1Mzg4MjMxYzY4Yjk4',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/3BubbS4TphmZA9cN1tfqEF/tracks',
+          total: 3,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:3BubbS4TphmZA9cN1tfqEF',
+      },
+      {
+        collaborative: false,
+        description:
+          'Metronomy, Asa, Radiohead, Michael Kiwanuka. It goes like this... Enjoy...',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/25OAySHB0ebjmpkAF6HzZZ',
+        },
+        href: 'https://api.spotify.com/v1/playlists/25OAySHB0ebjmpkAF6HzZZ',
+        id: '25OAySHB0ebjmpkAF6HzZZ',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e3e9b042778c63e8f5ccd3eab67616d0000b273a9eaab04b78574dc21e82526ab67616d0000b273ee3e3d421b9fce78c41880eb',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e3e9b042778c63e8f5ccd3eab67616d0000b273a9eaab04b78574dc21e82526ab67616d0000b273ee3e3d421b9fce78c41880eb',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e3e9b042778c63e8f5ccd3eab67616d0000b273a9eaab04b78574dc21e82526ab67616d0000b273ee3e3d421b9fce78c41880eb',
+            width: 60,
+          },
+        ],
+        name: 'Escapism',
+        owner: {
+          display_name: 'Kanat Atkaya',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/katkaya-tr',
+          },
+          href: 'https://api.spotify.com/v1/users/katkaya-tr',
+          id: 'katkaya-tr',
+          type: 'user',
+          uri: 'spotify:user:katkaya-tr',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'MzExLDVkNjY2OGEyZjQ4MGM0MjMyZmQ3OWU1ZDlkOWE0ZTMyMTEyMGY1ZmE=',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/25OAySHB0ebjmpkAF6HzZZ/tracks',
+          total: 62,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:25OAySHB0ebjmpkAF6HzZZ',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/219WDeYyti9g63mmXw34DW',
+        },
+        href: 'https://api.spotify.com/v1/playlists/219WDeYyti9g63mmXw34DW',
+        id: '219WDeYyti9g63mmXw34DW',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b2731daf9e63e08b809403cc3c71ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b2731daf9e63e08b809403cc3c71ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b2731daf9e63e08b809403cc3c71ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy',
+        owner: {
+          display_name: 'thedishmc',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/thedishmc',
+          },
+          href: 'https://api.spotify.com/v1/users/thedishmc',
+          id: 'thedishmc',
+          type: 'user',
+          uri: 'spotify:user:thedishmc',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'NDEsNTBmZWNkYWYzOTk4MGY3NzZmNWNiZjQ5ZjNjZjZhMjhmZmJlMTk3Mw==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/219WDeYyti9g63mmXw34DW/tracks',
+          total: 31,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:219WDeYyti9g63mmXw34DW',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/0DkdlxF8qTwjFZJ1ZtJJLU',
+        },
+        href: 'https://api.spotify.com/v1/playlists/0DkdlxF8qTwjFZJ1ZtJJLU',
+        id: '0DkdlxF8qTwjFZJ1ZtJJLU',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273e28fa05d81362d4f35c2933d',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273e28fa05d81362d4f35c2933d',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273e28fa05d81362d4f35c2933d',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy Setlist 2019',
+        owner: {
+          display_name: 'Rodrigo Nogueira',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/12143207985',
+          },
+          href: 'https://api.spotify.com/v1/users/12143207985',
+          id: '12143207985',
+          type: 'user',
+          uri: 'spotify:user:12143207985',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'NTksMTE0OTljN2NhMGI1Y2MxMTI4YmRkNzczZjc4MTNhZDQ3YTEzNWVlYg==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/0DkdlxF8qTwjFZJ1ZtJJLU/tracks',
+          total: 23,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:0DkdlxF8qTwjFZJ1ZtJJLU',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/5dMhabP9HSB0M2IPhzh8ZB',
+        },
+        href: 'https://api.spotify.com/v1/playlists/5dMhabP9HSB0M2IPhzh8ZB',
+        id: '5dMhabP9HSB0M2IPhzh8ZB',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b273912ac6ffde4f05d2ecd076d2ab67616d0000b273c76fb771baf705faafa72e90ab67616d0000b273d4eecbd73eecd9b4fd12ab1bab67616d0000b273dcd678d0ffcaf5fc2cf02e2f',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b273912ac6ffde4f05d2ecd076d2ab67616d0000b273c76fb771baf705faafa72e90ab67616d0000b273d4eecbd73eecd9b4fd12ab1bab67616d0000b273dcd678d0ffcaf5fc2cf02e2f',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b273912ac6ffde4f05d2ecd076d2ab67616d0000b273c76fb771baf705faafa72e90ab67616d0000b273d4eecbd73eecd9b4fd12ab1bab67616d0000b273dcd678d0ffcaf5fc2cf02e2f',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy radio',
+        owner: {
+          display_name: 'Flores',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/e0a7axxpwhgcrytyf09c6k4y5',
+          },
+          href: 'https://api.spotify.com/v1/users/e0a7axxpwhgcrytyf09c6k4y5',
+          id: 'e0a7axxpwhgcrytyf09c6k4y5',
+          type: 'user',
+          uri: 'spotify:user:e0a7axxpwhgcrytyf09c6k4y5',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id: 'NSxjYmFhZmY1MmVjOGZhNGVmYzQ4NzVkODY2MTE0OTRlZTFhODIzMTdh',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/5dMhabP9HSB0M2IPhzh8ZB/tracks',
+          total: 32,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:5dMhabP9HSB0M2IPhzh8ZB',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/7bZrs8SyuMhj4gYldcVxdD',
+        },
+        href: 'https://api.spotify.com/v1/playlists/7bZrs8SyuMhj4gYldcVxdD',
+        id: '7bZrs8SyuMhj4gYldcVxdD',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b2738ea6c359238021805abf03bfab67616d0000b273caeb45aa870274b438455554ab67616d0000b273ef95548d45685af816b79f92ab67616d0000b273f4edb40981e1fbb87b07baef',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b2738ea6c359238021805abf03bfab67616d0000b273caeb45aa870274b438455554ab67616d0000b273ef95548d45685af816b79f92ab67616d0000b273f4edb40981e1fbb87b07baef',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b2738ea6c359238021805abf03bfab67616d0000b273caeb45aa870274b438455554ab67616d0000b273ef95548d45685af816b79f92ab67616d0000b273f4edb40981e1fbb87b07baef',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy',
+        owner: {
+          display_name: 'gagepup12345',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/gagepup12345',
+          },
+          href: 'https://api.spotify.com/v1/users/gagepup12345',
+          id: 'gagepup12345',
+          type: 'user',
+          uri: 'spotify:user:gagepup12345',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'NjgsNTE4NDE3ZmYyZDA1YjI0YjAwMzQyNjFhMjJiZTRmMmQ0ODVjYjRlNg==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/7bZrs8SyuMhj4gYldcVxdD/tracks',
+          total: 25,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:7bZrs8SyuMhj4gYldcVxdD',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/2EHeC1xkmMAlbZFgpNfEP5',
+        },
+        href: 'https://api.spotify.com/v1/playlists/2EHeC1xkmMAlbZFgpNfEP5',
+        id: '2EHeC1xkmMAlbZFgpNfEP5',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27329c22ad3c8c39a8cf3bc656cab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981',
+            width: 60,
+          },
+        ],
+        name: 'metronomy favorites',
+        owner: {
+          display_name: 'Matias Dirube',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/matiasdirube',
+          },
+          href: 'https://api.spotify.com/v1/users/matiasdirube',
+          id: 'matiasdirube',
+          type: 'user',
+          uri: 'spotify:user:matiasdirube',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'NDAsYzgzMGFhNjc0Y2EwYzliMmE5MGYyYjgwNGM2NDQ2NzI0NGM0ZDhkMw==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/2EHeC1xkmMAlbZFgpNfEP5/tracks',
+          total: 24,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:2EHeC1xkmMAlbZFgpNfEP5',
+      },
+      {
+        collaborative: false,
+        description:
+          'From Simply Red to Tame Impala and from Metronomy to The Two Door Cinema Club. All hipster or hipster-vibe songs I like are in here.',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/1QpvTUyt0hHMZt4LvWMbcv',
+        },
+        href: 'https://api.spotify.com/v1/playlists/1QpvTUyt0hHMZt4LvWMbcv',
+        id: '1QpvTUyt0hHMZt4LvWMbcv',
+        images: [
+          {
+            height: null,
+            url:
+              'https://i.scdn.co/image/ab67706c0000bebb440505cf5a251eaab0e691b6',
+            width: null,
+          },
+        ],
+        name: 'Hipster Playlist',
+        owner: {
+          display_name: 'Sjoerd Legué',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/sjoerdlegue',
+          },
+          href: 'https://api.spotify.com/v1/users/sjoerdlegue',
+          id: 'sjoerdlegue',
+          type: 'user',
+          uri: 'spotify:user:sjoerdlegue',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'MTA0NyxjODZiMDUyZDUzNGU0OTgzOWFlMzVhMGRlNTQzMzA2MDAzYzA5Mzdk',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/1QpvTUyt0hHMZt4LvWMbcv/tracks',
+          total: 891,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:1QpvTUyt0hHMZt4LvWMbcv',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/7iR6g8YSuWflvsS0PC9u5s',
+        },
+        href: 'https://api.spotify.com/v1/playlists/7iR6g8YSuWflvsS0PC9u5s',
+        id: '7iR6g8YSuWflvsS0PC9u5s',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273c3a398471e065d953412f8db',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273c3a398471e065d953412f8db',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b273066b837095e31189aea7b2b7ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b273c3a398471e065d953412f8db',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy',
+        owner: {
+          display_name: 'Lucaste',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/eih1cu2yljp3d374sijb02rme',
+          },
+          href: 'https://api.spotify.com/v1/users/eih1cu2yljp3d374sijb02rme',
+          id: 'eih1cu2yljp3d374sijb02rme',
+          type: 'user',
+          uri: 'spotify:user:eih1cu2yljp3d374sijb02rme',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'MjksZmQ0YTNjMzhjZGI2NTNhNmMxMzAwYWRmZTcxMTUxMTlkNDA4YWVjZA==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/7iR6g8YSuWflvsS0PC9u5s/tracks',
+          total: 26,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:7iR6g8YSuWflvsS0PC9u5s',
+      },
+      {
+        collaborative: false,
+        description:
+          'The 1975, Tame Impala, The Killers, Alabama Shakes, Artic Monkeys, The Black Keys, Cage the Elephant, Metronomy etc',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/1RCL8szAgXSUJwMtF6RFIg',
+        },
+        href: 'https://api.spotify.com/v1/playlists/1RCL8szAgXSUJwMtF6RFIg',
+        id: '1RCL8szAgXSUJwMtF6RFIg',
+        images: [
+          {
+            height: null,
+            url:
+              'https://i.scdn.co/image/ab67706c0000bebbfd68c8950195a5503fa18212',
+            width: null,
+          },
+        ],
+        name: 'Office Indie',
+        owner: {
+          display_name: 'Enzo Nicolas Luna',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/pichuluna',
+          },
+          href: 'https://api.spotify.com/v1/users/pichuluna',
+          id: 'pichuluna',
+          type: 'user',
+          uri: 'spotify:user:pichuluna',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'MzkwLDc0OGYyNGEzZWQwZDk2ZTEwYWVmMDAyY2JkN2M0N2FhNjNkZTQ0NDE=',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/1RCL8szAgXSUJwMtF6RFIg/tracks',
+          total: 366,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:1RCL8szAgXSUJwMtF6RFIg',
+      },
+      {
+        collaborative: false,
+        description: '',
+        external_urls: {
+          spotify: 'https://open.spotify.com/playlist/3lMffVsQkZfs6XlV9IiXXy',
+        },
+        href: 'https://api.spotify.com/v1/playlists/3lMffVsQkZfs6XlV9IiXXy',
+        id: '3lMffVsQkZfs6XlV9IiXXy',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://mosaic.scdn.co/640/ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273ec3d15eab5bd77027abc4b23',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://mosaic.scdn.co/300/ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273ec3d15eab5bd77027abc4b23',
+            width: 300,
+          },
+          {
+            height: 60,
+            url:
+              'https://mosaic.scdn.co/60/ab67616d0000b27361d88d122004a25e3a3c64dfab67616d0000b2738ca7d89456553e4bbbf3c981ab67616d0000b2739e1cfc756886ac782e363d79ab67616d0000b273ec3d15eab5bd77027abc4b23',
+            width: 60,
+          },
+        ],
+        name: 'Metronomy — Reservoir',
+        owner: {
+          display_name: 'g',
+          external_urls: {
+            spotify: 'https://open.spotify.com/user/wmwubec26cv8t5rxdlv215d1b',
+          },
+          href: 'https://api.spotify.com/v1/users/wmwubec26cv8t5rxdlv215d1b',
+          id: 'wmwubec26cv8t5rxdlv215d1b',
+          type: 'user',
+          uri: 'spotify:user:wmwubec26cv8t5rxdlv215d1b',
+        },
+        primary_color: null,
+        public: null,
+        snapshot_id:
+          'MjIsYmYxZjg5NzgwN2MyN2E1OGZlYzkwMTQ1MzdmNTE3ZThjMzBlN2RkYw==',
+        tracks: {
+          href:
+            'https://api.spotify.com/v1/playlists/3lMffVsQkZfs6XlV9IiXXy/tracks',
+          total: 38,
+        },
+        type: 'playlist',
+        uri: 'spotify:playlist:3lMffVsQkZfs6XlV9IiXXy',
+      },
+    ],
+    limit: 12,
+    next:
+      'https://api.spotify.com/v1/search?query=Metronomy&type=playlist&offset=17&limit=12',
+    offset: 5,
+    previous:
+      'https://api.spotify.com/v1/search?query=Metronomy&type=playlist&offset=0&limit=12',
+    total: 869,
+  },
 };
