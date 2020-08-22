@@ -7,9 +7,15 @@ import ArtistCard from '../../Cards/ArtistCard/ArtistCard';
 const ArtistsList = ({ artists }) => {
   return (
     <div styleName='base'>
-      {artists.items.map((artist, idx) => (
-        <ArtistCard artist={artist} key={idx} />
-      ))}
+      {artists.items.map((artist, idx) => {
+        const artistObj = {
+          name: artist.name,
+          link: artist.external_urls.spotify,
+          image: artist.images[0].url,
+          genres: artist.genres,
+        };
+        return <ArtistCard artist={artistObj} key={idx} />;
+      })}
     </div>
   );
 };
