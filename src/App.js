@@ -3,7 +3,8 @@ import CSSModules from 'react-css-modules';
 
 import { getHash } from './utils/getHash';
 
-import SpotifyLoginButton from './components/SpotifyLoginButton/SpotifyLoginButton';
+import LoginPage from './pages/LoginPage/LoginPage';
+import MainPage from './pages/MainPage/MainPage';
 
 import styles from './App.module.scss';
 import './assets/styles/main.scss';
@@ -12,14 +13,21 @@ function App() {
   const [apiToken, setApiToken] = useState();
 
   useEffect(() => {
-    const hash = getHash();
-    if (hash.access_token) setApiToken(hash.access_token);
+    if (localStorage.getItem('spotify_token'))
+      setApiToken(localStorage.getItem('spotify_token'));
+    else {
+      const hash = getHash();
+      if (hash.access_token) {
+        setApiToken(hash.access_token);
+        localStorage.setItem('spotify_token', hash.access_token);
+      }
+    }
   }, [apiToken]);
 
   return (
     <>
-      {!apiToken && <SpotifyLoginButton />}
-      {apiToken && <h1>Hello my dear buddy!</h1>}
+      {!apiToken && <LoginPage />}
+      {apiToken && <MainPage />}
     </>
   );
 }
