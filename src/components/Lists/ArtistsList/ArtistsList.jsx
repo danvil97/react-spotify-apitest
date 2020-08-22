@@ -7,7 +7,7 @@ import ArtistCard from '../../Cards/ArtistCard/ArtistCard';
 const ArtistsList = ({ artists }) => {
   return (
     <div styleName='base'>
-      {artists.map((artist, idx) => (
+      {artists.items.map((artist, idx) => (
         <ArtistCard artist={artist} key={idx} />
       ))}
     </div>

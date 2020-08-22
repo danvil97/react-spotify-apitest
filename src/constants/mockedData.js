@@ -1,144 +1,87 @@
 export default {
-  artists: [
-    {
-      name: 'Bon Iver',
-      image: 'https://i.scdn.co/image/d5ea2b221938b03e2096ef2c2caf2a0558014c1e',
-      link: 'https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ',
-      genres: ['eau claire indie', 'melancholia', 'slowcore'],
-    },
-    {
-      name: 'Mac DeMarco',
-      image: 'https://i.scdn.co/image/e3d3e28c604a1c86e796e0d2aa7d4dc249f62e6f',
-      link: 'https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM',
-      genres: ['edmonton indie'],
-    },
-    {
-      name: 'Bombay Bicycle Club',
-      image: 'https://i.scdn.co/image/4a1e106fead0523ef38b09ebc5f83688e7bf7129',
-      link: 'https://open.spotify.com/artist/3pTE9iaJTkWns3mxpNQlJV',
-      genres: [
-        'alternative dance',
-        'british indie rock',
-        'indie pop',
-        'indie rock',
-        'indietronica',
-        'modern alternative rock',
-        'modern rock',
-        'new rave',
-        'rock',
-      ],
-    },
-    {
-      name: 'Pompeya',
-      image: 'https://i.scdn.co/image/36579841d646bd87bf12eee2c9da60430a2e1097',
-      link: 'https://open.spotify.com/artist/6ECT62UWPniLG7KmWdwk37',
-      genres: ['russian synthpop'],
-    },
-
-    {
-      name: 'Bon Iver',
-      image: 'https://i.scdn.co/image/d5ea2b221938b03e2096ef2c2caf2a0558014c1e',
-      link: 'https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ',
-      genres: ['eau claire indie', 'melancholia', 'slowcore'],
-    },
-    {
-      name: 'Mac DeMarco',
-      image: 'https://i.scdn.co/image/e3d3e28c604a1c86e796e0d2aa7d4dc249f62e6f',
-      link: 'https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM',
-      genres: ['edmonton indie'],
-    },
-    {
-      name: 'Bombay Bicycle Club',
-      image: 'https://i.scdn.co/image/4a1e106fead0523ef38b09ebc5f83688e7bf7129',
-      link: 'https://open.spotify.com/artist/3pTE9iaJTkWns3mxpNQlJV',
-      genres: [
-        'alternative dance',
-        'british indie rock',
-        'indie pop',
-        'indie rock',
-        'indietronica',
-        'modern alternative rock',
-        'modern rock',
-        'new rave',
-        'rock',
-      ],
-    },
-    {
-      name: 'Pompeya',
-      image: 'https://i.scdn.co/image/36579841d646bd87bf12eee2c9da60430a2e1097',
-      link: 'https://open.spotify.com/artist/6ECT62UWPniLG7KmWdwk37',
-      genres: ['russian synthpop'],
-    },
-
-    {
-      name: 'Bon Iver',
-      image: 'https://i.scdn.co/image/d5ea2b221938b03e2096ef2c2caf2a0558014c1e',
-      link: 'https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ',
-      genres: ['eau claire indie', 'melancholia', 'slowcore'],
-    },
-    {
-      name: 'Mac DeMarco',
-      image: 'https://i.scdn.co/image/e3d3e28c604a1c86e796e0d2aa7d4dc249f62e6f',
-      link: 'https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM',
-      genres: ['edmonton indie'],
-    },
-    {
-      name: 'Bombay Bicycle Club',
-      image: 'https://i.scdn.co/image/4a1e106fead0523ef38b09ebc5f83688e7bf7129',
-      link: 'https://open.spotify.com/artist/3pTE9iaJTkWns3mxpNQlJV',
-      genres: [
-        'alternative dance',
-        'british indie rock',
-        'indie pop',
-        'indie rock',
-        'indietronica',
-        'modern alternative rock',
-        'modern rock',
-        'new rave',
-        'rock',
-      ],
-    },
-    {
-      name: 'Pompeya',
-      image: 'https://i.scdn.co/image/36579841d646bd87bf12eee2c9da60430a2e1097',
-      link: 'https://open.spotify.com/artist/6ECT62UWPniLG7KmWdwk37',
-      genres: ['russian synthpop'],
-    },
-    {
-      name: 'Bon Iver',
-      image: 'https://i.scdn.co/image/d5ea2b221938b03e2096ef2c2caf2a0558014c1e',
-      link: 'https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ',
-      genres: ['eau claire indie', 'melancholia', 'slowcore'],
-    },
-    {
-      name: 'Mac DeMarco',
-      image: 'https://i.scdn.co/image/e3d3e28c604a1c86e796e0d2aa7d4dc249f62e6f',
-      link: 'https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM',
-      genres: ['edmonton indie'],
-    },
-    {
-      name: 'Bombay Bicycle Club',
-      image: 'https://i.scdn.co/image/4a1e106fead0523ef38b09ebc5f83688e7bf7129',
-      link: 'https://open.spotify.com/artist/3pTE9iaJTkWns3mxpNQlJV',
-      genres: [
-        'alternative dance',
-        'british indie rock',
-        'indie pop',
-        'indie rock',
-        'indietronica',
-        'modern alternative rock',
-        'modern rock',
-        'new rave',
-        'rock',
-      ],
-    },
-    {
-      name: 'Pompeya',
-      image: 'https://i.scdn.co/image/36579841d646bd87bf12eee2c9da60430a2e1097',
-      link: 'https://open.spotify.com/artist/6ECT62UWPniLG7KmWdwk37',
-      genres: ['russian synthpop'],
-    },
-  ],
+  artists: {
+    href:
+      'https://api.spotify.com/v1/search?query=bon+iver&type=artist&offset=0&limit=12',
+    items: [
+      {
+        external_urls: {
+          spotify: 'https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ',
+        },
+        followers: {
+          href: null,
+          total: 2709299,
+        },
+        genres: ['eau claire indie', 'melancholia', 'slowcore'],
+        href: 'https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ',
+        id: '4LEiUm1SRbFMgfqnQTwUbQ',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://i.scdn.co/image/d5ea2b221938b03e2096ef2c2caf2a0558014c1e',
+            width: 640,
+          },
+          {
+            height: 320,
+            url:
+              'https://i.scdn.co/image/7f9b8a0f89f5aff5a03861f5b34fb73853ce0fec',
+            width: 320,
+          },
+          {
+            height: 160,
+            url:
+              'https://i.scdn.co/image/9258bf0ae0348dc7e2b1279507d2bf597c146bc4',
+            width: 160,
+          },
+        ],
+        name: 'Bon Iver',
+        popularity: 82,
+        type: 'artist',
+        uri: 'spotify:artist:4LEiUm1SRbFMgfqnQTwUbQ',
+      },
+      {
+        external_urls: {
+          spotify: 'https://open.spotify.com/artist/4IDtcqecmG4WkkvR1P7hYg',
+        },
+        followers: {
+          href: null,
+          total: 378,
+        },
+        genres: [],
+        href: 'https://api.spotify.com/v1/artists/4IDtcqecmG4WkkvR1P7hYg',
+        id: '4IDtcqecmG4WkkvR1P7hYg',
+        images: [
+          {
+            height: 640,
+            url:
+              'https://i.scdn.co/image/ab67616d0000b273db5383334a8ee18fbbe896f2',
+            width: 640,
+          },
+          {
+            height: 300,
+            url:
+              'https://i.scdn.co/image/ab67616d00001e02db5383334a8ee18fbbe896f2',
+            width: 300,
+          },
+          {
+            height: 64,
+            url:
+              'https://i.scdn.co/image/ab67616d00004851db5383334a8ee18fbbe896f2',
+            width: 64,
+          },
+        ],
+        name: 'Bon Iverson',
+        popularity: 7,
+        type: 'artist',
+        uri: 'spotify:artist:4IDtcqecmG4WkkvR1P7hYg',
+      },
+    ],
+    limit: 12,
+    next: null,
+    offset: 0,
+    previous: null,
+    total: 4,
+  },
 
   tracks: {
     href:

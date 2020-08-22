@@ -4,19 +4,12 @@ import CSSModules from 'react-css-modules';
 import styles from './ArtistCard.module.scss';
 
 const ArtistCard = ({ artist }) => {
-  const { name, link, genres, image } = artist;
-
   return (
-    <div
-      styleName='base'
-      onClick={() => {
-        console.log(link);
-      }}
-    >
-      <img src={image} alt={name + ' image'} />
+    <div styleName='base'>
+      <img src={artist.images[0].url} alt={artist.name + ' image'} />
       <div>
-        <a href={link}>{name}</a>
-        <span>{genres[0]}</span>
+        <a href={artist.external_urls.spotify}>{artist.name}</a>
+        <span>{artist.genres[0]}</span>
       </div>
     </div>
   );
