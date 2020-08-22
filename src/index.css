@@ -1,5 +1,6 @@
 html {
-  height: 100%;
+  min-height: 100%;
+  max-width: auto;
 }
 body {
   height: 100%;
@@ -14,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(110.27deg, #02be36 0%, #125b7a 100%);
+  background: linear-gradient(110.27deg, #02be36 0%, #125b7a 100%) no-repeat;
 }
 
 code {
