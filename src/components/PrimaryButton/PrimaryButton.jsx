@@ -3,12 +3,12 @@ import CSSModules from 'react-css-modules';
 
 import styles from './PrimaryButton.module.scss';
 
-const PrimaryButton = ({ children, onClick }) => {
+const PrimaryButton = ({ children, onClick, withBorder }) => {
   return (
-    <button styleName='base' onClick={onClick}>
+    <button styleName={withBorder ? 'base border' : 'base'} onClick={onClick}>
       {children}
     </button>
   );
 };
 
-export default CSSModules(PrimaryButton, styles);
+export default CSSModules(PrimaryButton, styles, { allowMultiple: true });

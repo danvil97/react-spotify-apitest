@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CSSModules from 'react-css-modules';
 
-import styles from './PrimaryButton.module.scss';
+import styles from './SearchField.module.scss';
 
 const SearchField = ({ placeholder, name }) => {
   const [fieldValue, setFieldValue] = useState('');
@@ -12,7 +12,7 @@ const SearchField = ({ placeholder, name }) => {
     <input
       type='search'
       styleName='base'
-      palceholder={placeholder}
+      placeholder={placeholder}
       onChange={handleChange}
       value={fieldValue}
     />

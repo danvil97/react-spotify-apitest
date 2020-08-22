@@ -1,0 +1,23 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  margin: 12px $margin_base;
+  padding: 20px;
+  background: $spooty_blured-bg;
+  border-radius: 8px;
+  div {
+    margin-bottom: 8px;
+  }
+
+  .searchBox {
+    button {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .base {
+    margin: 12px $margin_base1200;
+  }
+}
