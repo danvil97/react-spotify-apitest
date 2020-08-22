@@ -1,0 +1,17 @@
+@import '../../assets/styles/constants.scss';
+
+.base,
+.base:active {
+  background-color: $spotify_black;
+  color: #fff;
+
+  font-family: $openSans;
+  font-weight: bold;
+  font-size: 16px;
+
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
