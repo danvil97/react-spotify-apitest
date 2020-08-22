@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CSSModules from 'react-css-modules';
 
 import styles from './ArtistCard.module.scss';
