@@ -3,6 +3,7 @@
 .base {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   height: 60px;
   padding: 0 200px;
@@ -21,6 +22,18 @@
       color: #fff;
     }
   }
+
+  .links {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin: 0 12px;
+
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
   svg {
     width: 50px;
     height: 50px;
@@ -30,5 +43,11 @@
     path {
       color: $spotify_green;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .base {
+    padding: 0 8px;
   }
 }
