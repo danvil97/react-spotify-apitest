@@ -9,11 +9,11 @@ const FormRadioButton = ({ children, value, name }) => {
       <input
         styleName='base__checkbox'
         name={name}
-        id={'id_' + name + value}
+        id={name + '_' + value}
         value={value}
         type='radio'
       />
-      <label htmlFor={'id_' + name + value}>{children}</label>
+      <label htmlFor={name + '_' + value}>{children}</label>
     </div>
   );
 };

@@ -6,7 +6,7 @@
   label {
     font-family: $openSans;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
 
     color: $spotify_black;
   }
@@ -65,12 +65,8 @@
       background-color: $spotify_black;
       width: 10px;
       height: 10px;
-      //border: solid 1px $spotify_black;
+
       border-radius: 25px;
-      // box-shadow: 2px 0 0 $spotify_black, 4px 0 0 $spotify_black,
-      //   4px -2px 0 $spotify_black, 4px -4px 0 $spotify_black,
-      //   4px -6px 0 $spotify_black, 4px -8px 0 $spotify_black;
-      // transform: rotate(45deg);
     }
   }
 }
