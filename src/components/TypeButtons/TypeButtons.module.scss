@@ -1,0 +1,14 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    margin-right: 12px;
+  }
+
+  div:last-child {
+    margin-right: 0;
+  }
+}

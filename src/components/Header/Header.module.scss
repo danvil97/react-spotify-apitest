@@ -1,0 +1,53 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+  padding: 0 $margin_base;
+
+  background-color: $spotify_black;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin: 0 0 0 12px;
+
+      font-family: $openSans;
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin: 0 12px;
+
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  svg {
+    width: 50px;
+    height: 50px;
+
+    transform: rotate(-180deg);
+
+    path {
+      color: $spotify_green;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .base {
+    padding: 0 $margin_base1200;
+  }
+}

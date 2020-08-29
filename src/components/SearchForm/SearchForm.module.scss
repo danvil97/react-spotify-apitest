@@ -1,0 +1,35 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  padding: 20px;
+  background: $spooty_blured-bg;
+  border-radius: 8px;
+
+  &__firstRow {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 12px;
+
+    input {
+      margin-right: 20px;
+    }
+
+    select {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  &__secondRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    align-items: center;
+
+    .searchButton {
+      margin-left: 12px;
+    }
+  }
+}

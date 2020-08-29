@@ -1,0 +1,14 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  margin: 12px $margin_base;
+  > div {
+    margin: 12px 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .base {
+    margin: 12px $margin_base1200;
+  }
+}

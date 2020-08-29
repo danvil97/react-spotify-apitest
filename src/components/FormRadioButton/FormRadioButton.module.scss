@@ -1,0 +1,72 @@
+@import '../../assets/styles/constants.scss';
+
+.base {
+  display: block;
+
+  label {
+    font-family: $openSans;
+    font-size: 16px;
+    font-weight: 500;
+
+    color: $spotify_black;
+  }
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    // Box.
+    & + label:before {
+      content: '';
+      display: inline-block;
+      vertical-align: text-top;
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+
+      border: solid 1px $spotify_black;
+      border-radius: 20px;
+      background: $spotify_green;
+    }
+
+    &:hover + label:before {
+      background: darken($spotify_green, 10%);
+    }
+
+    &:focus + label:before {
+    }
+
+    &:checked + label:before {
+      background: $spotify_green;
+    }
+
+    &:disabled + label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+
+    &:disabled + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+
+    // Checkmark
+    &:checked + label:after {
+      content: '';
+      margin: 6px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: $spotify_black;
+      width: 10px;
+      height: 10px;
+
+      border-radius: 25px;
+    }
+  }
+}
