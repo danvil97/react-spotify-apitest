@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import CSSModules from 'react-css-modules';
 
+import { setToken } from './store/actions/tokenActions';
 import { getHash } from './utils/getHash';
 
 import LoginPage from './pages/LoginPage/LoginPage';
@@ -10,7 +12,11 @@ import styles from './App.module.scss';
 import './assets/styles/main.scss';
 
 function App() {
-  const [apiToken, setApiToken] = useState();
+  const apiToken = useSelector((state) => state.tokenReducer.token);
+  const dispatch = useDispatch();
+  const setApiToken = useCallback((token) => dispatch(setToken(token)), [
+    dispatch,
+  ]);
 
   useEffect(() => {
     if (localStorage.getItem('spotify_token'))
@@ -20,9 +26,10 @@ function App() {
       if (hash.access_token) {
         setApiToken(hash.access_token);
         localStorage.setItem('spotify_token', hash.access_token);
+        // TODO Clear url from responce parameters
       }
     }
-  }, [apiToken]);
+  });
 
   return (
     <>
