@@ -1,8 +1,10 @@
+import { SET_TOKEN } from '../actions/tokenActions';
+
 const initState = { token: null };
 
 const tokenReducer = (state = initState, action) => {
   switch (action.type) {
-    case 'SET_TOKEN':
+    case SET_TOKEN:
       return {
         ...state,
         token: action.token,
