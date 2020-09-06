@@ -1,20 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CSSModules from 'react-css-modules';
 
 import styles from './SearchField.module.scss';
 
-const SearchField = ({ placeholder, name }) => {
-  const [fieldValue, setFieldValue] = useState('');
-  const handleChange = (event) => {
-    setFieldValue(event.target.value);
-  };
+const SearchField = (field) => {
+
   return (
     <input
       type='search'
       styleName='base'
-      placeholder={placeholder}
-      onChange={handleChange}
-      value={fieldValue}
+      placeholder='search text...'
+      {...field.input}
     />
   );
 };
