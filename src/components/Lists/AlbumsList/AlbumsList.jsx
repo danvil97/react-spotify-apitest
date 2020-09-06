@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useCallback, useEffect } from 'react';
 import CSSModules from 'react-css-modules';
+import { useSelector, useDispatch } from 'react-redux';
 
 import styles from './AlbumsList.module.scss';
 import AlbumCard from '../../Cards/AlbumCard/AlbumCard';
 
-const AlbumsList = ({ albums }) => {
+import { search } from '../../../store/actions/albumsActions';
+
+const AlbumsList = () => {
+  const albums = useSelector((state) => state.albumsReducer.data);
+  const apiToken = useSelector((state) => state.tokenReducer.token);
+  const dispatch = useDispatch();
+  const query = { q: 'bon iver' };
+  const handleSearch = useCallback(
+    (query, token) => dispatch(search(query, token)),
+    [dispatch]
+  );
+
+  useEffect(() => {
+    handleSearch(query, apiToken);
+  }, []);
+
   return (
     <div styleName='base'>
-      {albums.items.map((album, idx) => {
+      {albums.map((album, idx) => {
         const albumObj = {
           image: album.images[0].url,
           link: album.external_urls.spotify,

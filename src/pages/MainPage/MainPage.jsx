@@ -20,9 +20,9 @@ const MainPage = () => {
       <div styleName='base'>
         <SearchForm />
         <ArtistsList artists={MOCK_DATA.artists} />
-        <AlbumsList albums={MOCK_DATA.albums} />
-        <TracksList tracks={MOCK_DATA.tracks} />
-        <PlaylistsList playlists={MOCK_DATA.playlists} />
+        {/* <AlbumsList albums={MOCK_DATA.albums} /> */}
+        {/* <TracksList tracks={MOCK_DATA.tracks} /> */}
+        {/* <PlaylistsList playlists={MOCK_DATA.playlists} /> */}
       </div>
     </>
   );
