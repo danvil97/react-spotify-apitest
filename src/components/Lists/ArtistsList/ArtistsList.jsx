@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import styles from './ArtistsList.module.scss';
 import ArtistCard from '../../Cards/ArtistCard/ArtistCard';
 
-import { search } from '../../../store/actions/artistsActions';
+import { artistsSearch } from '../../../store/actions/artistsActions';
 
 const ArtistsList = () => {
   const artists = useSelector((state) => state.artistsReducer.data);
@@ -13,13 +13,13 @@ const ArtistsList = () => {
   const dispatch = useDispatch();
   const query = { q: 'bon iver' };
   const handleSearch = useCallback(
-    (query, token) => dispatch(search(query, token)),
+    (query, token) => dispatch(artistsSearch(query, token)),
     [dispatch]
   );
 
   useEffect(() => {
     handleSearch(query, apiToken);
-  }, []);
+  },[]);
 
   return (
     <div styleName='base'>

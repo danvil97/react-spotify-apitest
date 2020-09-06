@@ -6,7 +6,7 @@ import { getTimeFromMs } from '../../../utils/getTime';
 import TrackCard from '../../Cards/TrackCard/TrackCard';
 
 import styles from './TracksList.module.scss';
-import { search } from '../../../store/actions/tracksActions';
+import { tracksSearch } from '../../../store/actions/tracksActions';
 
 const TracksList = () => {
   const tracks = useSelector((state) => state.tracksReducer.data);
@@ -14,13 +14,13 @@ const TracksList = () => {
   const dispatch = useDispatch();
   const query = { q: 'bon iver' };
   const handleSearch = useCallback(
-    (query, token) => dispatch(search(query, token)),
+    (query, token) => dispatch(tracksSearch(query, token)),
     [dispatch]
   );
 
   useEffect(() => {
     handleSearch(query, apiToken);
-  }, []);
+  },[]);
 
   return (
     <div styleName='base'>

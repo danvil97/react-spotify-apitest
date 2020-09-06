@@ -1,29 +1,29 @@
 import axios from 'axios';
 
-export const SEARCH_START = 'SEARCH_START';
-export const searchStart = () => {
+export const ARTISTS_SEARCH_START = 'ARTISTS_SEARCH_START';
+export const artistsSearchStart = () => {
   return {
-    type: SEARCH_START,
+    type: ARTISTS_SEARCH_START,
   };
 };
-export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
-export const searchSuccess = (data) => {
+export const ARTISTS_SEARCH_SUCCESS = 'ARTISTS_SEARCH_SUCCESS';
+export const artistsSearchSuccess = (data) => {
   return {
-    type: SEARCH_SUCCESS,
+    type: ARTISTS_SEARCH_SUCCESS,
     payload: data,
   };
 };
-export const SEARCH_FAILURE = 'SEARCH_FAILURE';
-export const searchFailure = (error) => {
+export const ARTISTS_SEARCH_FAILURE = 'ARTISTS_SEARCH_FAILURE';
+export const artistsSearchFailure = (error) => {
   return {
-    type: SEARCH_FAILURE,
+    type: ARTISTS_SEARCH_FAILURE,
     payload: error,
   };
 };
 
-export const search = (queryParams, apiToken) => {
+export const artistsSearch = (queryParams, apiToken) => {
   return (dispatch) => {
-    dispatch(searchStart());
+    dispatch(artistsSearchStart());
     axios
       .get('https://api.spotify.com/v1/search', {
         headers: {
@@ -33,10 +33,10 @@ export const search = (queryParams, apiToken) => {
         params: { ...queryParams, type: 'artist' },
       })
       .then((res) => {
-        dispatch(searchSuccess(res.data.artists.items));
+        dispatch(artistsSearchSuccess(res.data.artists.items));
       })
       .catch((error) => {
-        dispatch(searchFailure(error));
+        dispatch(artistsSearchFailure(error));
       });
   };
 };

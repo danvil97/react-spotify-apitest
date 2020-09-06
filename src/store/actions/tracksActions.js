@@ -1,29 +1,29 @@
 import axios from 'axios';
 
-export const SEARCH_START = 'SEARCH_START';
-export const searchStart = () => {
+export const TRACKS_SEARCH_START = 'TRACKS_SEARCH_START';
+export const tracksSearchStart = () => {
   return {
-    type: SEARCH_START,
+    type: TRACKS_SEARCH_START,
   };
 };
-export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
-export const searchSuccess = (data) => {
+export const TRACKS_SEARCH_SUCCESS = 'TRACKS_SEARCH_SUCCESS';
+export const tracksSearchSuccess = (data) => {
   return {
-    type: SEARCH_SUCCESS,
+    type: TRACKS_SEARCH_SUCCESS,
     payload: data,
   };
 };
-export const SEARCH_FAILURE = 'SEARCH_FAILURE';
-export const searchFailure = (error) => {
+export const TRACKS_SEARCH_FAILURE = 'TRACKS_SEARCH_FAILURE';
+export const tracksSearchFailure = (error) => {
   return {
-    type: SEARCH_FAILURE,
+    type: TRACKS_SEARCH_FAILURE,
     payload: error,
   };
 };
 
-export const search = (queryParams, apiToken) => {
+export const tracksSearch = (queryParams, apiToken) => {
   return (dispatch) => {
-    dispatch(searchStart());
+    dispatch(tracksSearchStart());
     axios
       .get('https://api.spotify.com/v1/search', {
         headers: {
@@ -33,10 +33,10 @@ export const search = (queryParams, apiToken) => {
         params: { ...queryParams, type: 'track' },
       })
       .then((res) => {
-        dispatch(searchSuccess(res.data.tracks.items));
+        dispatch(tracksSearchSuccess(res.data.tracks.items));
       })
       .catch((error) => {
-        dispatch(searchFailure(error));
+        dispatch(tracksSearchFailure(error));
       });
   };
 };
