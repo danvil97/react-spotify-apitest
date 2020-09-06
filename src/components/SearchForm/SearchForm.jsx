@@ -20,7 +20,7 @@ const SearchForm = () => {
       <div styleName='base__secondRow'>
         <TypeButtons typeList={SEARCH.typeList} />
         <div styleName='searchButton'>
-          <PrimaryButton withBorder>
+          <PrimaryButton withBorder onClick={() => {}}>
             <BsSearch />
           </PrimaryButton>
         </div>
